@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router'
-import { Menu as UikitMenu } from '@pancakeswap/uikit'
+import { Menu as UikitMenu } from '@doodaswap/uikit'
 import { languageList } from 'config/localization/languages'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
@@ -37,7 +37,7 @@ const Menu = (props) => {
       footerLinks={footerLinks(t)}
       activeItem={activeMenuItem?.href}
       activeSubItem={activeSubMenuItem?.href}
-      buyCakeLabel={t('Buy CAKE')}
+      // buyCakeLabel={t('Buy CAKE')}
       profile={{
         username: profile?.username,
         image: profile?.nft ? `/images/nfts/${profile.nft?.images.sm}` : undefined,
