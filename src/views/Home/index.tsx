@@ -6,6 +6,7 @@ import useTheme from 'hooks/useTheme'
 import Container from 'components/Layout/Container'
 import { PageMeta } from 'components/Layout/Page'
 import Hero from './components/Hero'
+import DoodaMain from './components/DoodaMain'
 import { swapSectionData, earnSectionData, cakeSectionData } from './components/SalesSection/data'
 import MetricsSection from './components/MetricsSection'
 import SalesSection from './components/SalesSection'
@@ -51,20 +52,24 @@ const Home: React.FC = () => {
       <PageMeta />
       <StyledHeroSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
-        background={
-          theme.isDark
-            ? 'radial-gradient(103.12% 50% at 50% 50%, #21193A 0%, #191326 100%)'
-            : 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)'
-        }
+        // background={
+        //   theme.isDark
+        //     ? 'radial-gradient(103.12% 50% at 50% 50%, #21193A 0%, #191326 100%)'
+        //     : 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)'
+        // }
+        background="#ffffff"
         index={2}
         hasCurvedDivider={false}
       >
-        {account && (
+        {/* ui section to show if users are logged in via wallet */}
+        {/* {account && (
           <UserBannerWrapper>
             <UserBanner />
           </UserBannerWrapper>
-        )}
-        <Hero />
+        )} */}
+
+        {/* <Hero /> */}
+        <DoodaMain />
       </StyledHeroSection>
       {/* <PageSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
