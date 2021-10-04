@@ -74,9 +74,10 @@ const App: React.FC = () => {
       <Menu>
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Switch>
-            <Route path="/" exact>
+            <Route path="/dev-home" exact>
               <Home />
             </Route>
+            <Route exact strict path="/" component={Swap} />
             <Route exact path="/farms/auction">
               <FarmAuction />
             </Route>
