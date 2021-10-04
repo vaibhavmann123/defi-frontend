@@ -14,3 +14,9 @@ Lottery: https://testnet.bscscan.com/address/0x92bdf86aa814d2d0df3636d3723a600ca
 <br>
 IPO: https://testnet.bscscan.com/address/0x9f2c04e98e3039c7e47a0a934a2694a755b8cb57#code
 
+# Deployment
+
+master: https://doodaswap-frontend.vercel.app/ 
+<br>
+develop: https://dev-doodaswap-frontend.vercel.app/
+<br>
