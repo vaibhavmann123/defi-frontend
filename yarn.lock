@@ -1535,10 +1535,10 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@doodaswap/uikit@^0.54.19":
-  version "0.54.19"
-  resolved "https://registry.yarnpkg.com/@doodaswap/uikit/-/uikit-0.54.19.tgz#1f188db6ac3d4dc38e01c2ecca9cd55f01e1ad04"
-  integrity sha512-Herp5zhnbNg5N9vXdxNgCfMvr0dYDiwsmuzdYBwrwVogstUYwAt6r7GiyF+XCS2ACWfYO3QyV4GYTA+G5dwopA==
+"@doodaswap/uikit@^0.54.20":
+  version "0.54.20"
+  resolved "https://registry.yarnpkg.com/@doodaswap/uikit/-/uikit-0.54.20.tgz#974fa87e8fe4c0e851646bd86fb4ceb3ffa27890"
+  integrity sha512-X702VvnX7X1rra6iN02XWr3pUsSQ8JV5jW/BneDUstgyt6hRzj2oZ73ozyaHP7WiNdjztNIcl08Y0/FUqkxsxQ==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
