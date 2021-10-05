@@ -13,19 +13,13 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 
 # Protocol
 
-Dooda: https://testnet.bscscan.com/address/0x0299af57a3bdd8575a603e4024711c058f5cb187#code
-<br>
-DoodaBar: https://testnet.bscscan.com/address/0x6d4e6056139c690000ae2d2c20ef5f89499281ef#code
-<br>
-Masterchef: https://testnet.bscscan.com/address/0x5940f798839639fbe3c2d5083d6776b36dcd05c6#code
-<br>
-Lottery: https://testnet.bscscan.com/address/0x92bdf86aa814d2d0df3636d3723a600ca4b2a0a8#code
-<br>
-IPO: https://testnet.bscscan.com/address/0x9f2c04e98e3039c7e47a0a934a2694a755b8cb57#code
+- Dooda: https://testnet.bscscan.com/address/0x0299af57a3bdd8575a603e4024711c058f5cb187#code
+- DoodaBar: https://testnet.bscscan.com/address/0x6d4e6056139c690000ae2d2c20ef5f89499281ef#code
+- Masterchef: https://testnet.bscscan.com/address/0x5940f798839639fbe3c2d5083d6776b36dcd05c6#code
+- Lottery: https://testnet.bscscan.com/address/0x92bdf86aa814d2d0df3636d3723a600ca4b2a0a8#code
+- IPO: https://testnet.bscscan.com/address/0x9f2c04e98e3039c7e47a0a934a2694a755b8cb57#code
 
 # Deployment
 
-master: https://doodaswap-frontend.vercel.app/ 
-<br>
-develop: https://dev-doodaswap-frontend.vercel.app/
-<br>
+- master: https://doodaswap-frontend.vercel.app/ 
+- develop: https://dev-doodaswap-frontend.vercel.app/
