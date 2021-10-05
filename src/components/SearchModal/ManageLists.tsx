@@ -95,7 +95,7 @@ const ListRow = memo(function ListRow({ listUrl }: { listUrl: string }) {
     <RowWrapper active={isActive} key={listUrl} id={listUrlRowHTMLId(listUrl)}>
       {tooltipVisible && tooltip}
       {list.logoURI ? (
-        <ListLogo size="40px" style={{ marginRight: '1rem' }} logoURI={list.logoURI} alt={`${list.name} list logo`} />
+        <ListLogo size="4px" style={{ marginRight: '1rem' }} logoURI={list.logoURI} alt={`${list.name} list logo`} />
       ) : (
         <div style={{ width: '24px', height: '24px', marginRight: '1rem' }} />
       )}

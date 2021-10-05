@@ -4,6 +4,7 @@ import { Button, Heading, Text, LogoIcon } from '@doodaswap/uikit'
 import { Link } from 'react-router-dom'
 import Page from 'components/Layout/Page'
 import { useTranslation } from 'contexts/Localization'
+import DoodaLogo from '../components/Dooda/components/DoodaLogo/DoodaLogo'
 
 const StyledNotFound = styled.div`
   align-items: center;
@@ -15,11 +16,10 @@ const StyledNotFound = styled.div`
 
 const NotFound = () => {
   const { t } = useTranslation()
-
   return (
     <Page>
       <StyledNotFound>
-        <LogoIcon width="64px" mb="8px" />
+        <DoodaLogo />
         <Heading scale="xxl">404</Heading>
         <Text mb="16px">{t('Oops, page not found.')}</Text>
         <Button as={Link} to="/" scale="sm">
