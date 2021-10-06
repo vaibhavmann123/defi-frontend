@@ -129,6 +129,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://pancakeswap.finance/images/tokens/0xa7f552078dcc247c2684336020c03648500c6d9f.png"
+    },
+    {
+      "name": "Dooda",
+      "symbol": "DOODA",
+      "address": "0x0299af57a3bdd8575a603e4024711c058f5cb187",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://doodaswap.s3.ap-northeast-2.amazonaws.com/0x0299af57a3bdd8575a603e4024711c058f5cb187.png"
     }
   ]
 }
