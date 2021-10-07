@@ -58,7 +58,6 @@ BigNumber.config({
   EXPONENTIAL_AT: 1000,
   DECIMAL_PLACES: 80,
 })
-const AkhilMenu = styled(Menu)``
 
 const App: React.FC = () => {
   usePollBlockNumber()
@@ -73,7 +72,7 @@ const App: React.FC = () => {
       <ResetCSS />
       <GlobalStyle />
       <GlobalCheckClaimStatus excludeLocations={[]} />
-      <AkhilMenu>
+      <Menu>
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Switch>
             <Route path="/" exact>
@@ -163,7 +162,7 @@ const App: React.FC = () => {
             <Route component={NotFound} />
           </Switch>
         </SuspenseWithChunkError>
-      </AkhilMenu>
+      </Menu>
       <EasterEgg iterations={2} />
       <ToastListener />
       <DatePickerPortal />
