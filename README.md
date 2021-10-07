@@ -1,6 +1,6 @@
 # Dooda Frontend
 
-design https://www.figma.com/file/VyvEHGNcPI5SKje1gskUsW/DOODA-Defi-Copy?node-id=0%3A1 
+design https://www.figma.com/file/VyvEHGNcPI5SKje1gskUsW/DOODA-Defi-Copy?node-id=0%3A1
 
 # Protocol
 
@@ -13,4 +13,3 @@ Masterchef: https://testnet.bscscan.com/address/0x5940f798839639fbe3c2d5083d6776
 Lottery: https://testnet.bscscan.com/address/0x92bdf86aa814d2d0df3636d3723a600ca4b2a0a8#code
 <br>
 IPO: https://testnet.bscscan.com/address/0x9f2c04e98e3039c7e47a0a934a2694a755b8cb57#code
-
