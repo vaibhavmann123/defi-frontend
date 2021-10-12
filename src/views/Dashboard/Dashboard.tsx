@@ -230,7 +230,7 @@ const Dashboard = () => {
   const earnings: Earning[] = [
     {
       title: t('your earnings'),
-      heading: t('Your earnings'),
+      heading: t('Compensation by period($)'),
       dailyTx: 0,
       dailyAmt: 0.0,
       weeklyTx: 0,
@@ -242,7 +242,7 @@ const Dashboard = () => {
     },
     {
       title: t('your APR'),
-      heading: t('Your APR'),
+      heading: t('expected return($)'),
       dailyTx: 0,
       dailyAmt: 0.0,
       weeklyTx: 0,
@@ -266,7 +266,7 @@ const Dashboard = () => {
           </StyledHeadingFlex>
         </Flex>
         <Flex flex="1" justifyContent="center">
-          <img src="/images/dashboard/frame.png" width="336px" height="287px" alt="" />
+          <img src="/images/frame.png" width="336px" height="287px" alt="" />
         </Flex>
       </GappedFlex>
 
